@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://rs.n1info.com/wp-content/uploads/2021/03/VEC_0804-01-1024x683-1.jpeg);
+  background-size: cover;
+  color: aliceblue;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 60%;
+  margin: auto;
+  border: 5px solid rgb(170, 30, 30);
+  padding: 20px;
+  box-shadow: 8px 5px aliceblue;
+}
+.wrapper p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: teal;
+}
+#second {
+  text-align: left;
+}
+
+label,
+input,
+select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+}
+
+select {
+  height: 25px;
+}
+
+input {
+  padding: 5px;
+  background-color: rgb(121, 94, 245);
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+}
+#movie-list,
+#program-list {
+  color: rgb(76, 7, 202);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: floralwhite;
+}
+.button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: rgb(233, 44, 107);
+  color: white;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+  padding: 4px;
+}
+
+li:nth-child(2n + 1) {
+  background-color: rgb(243, 235, 235);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  border: 2px dashed rgb(170, 30, 30);
+  width: 100%;
+  padding: 20px;
+  border-radius: 5%;
+}
